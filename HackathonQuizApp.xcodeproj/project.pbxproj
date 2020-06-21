@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		880D8E10249EB52D00FD162C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E0F249EB52D00FD162C /* AppDelegate.swift */; };
 		880D8E12249EB52D00FD162C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E11249EB52D00FD162C /* SceneDelegate.swift */; };
-		880D8E14249EB52D00FD162C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E13249EB52D00FD162C /* ViewController.swift */; };
 		880D8E17249EB52D00FD162C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D8E15249EB52D00FD162C /* Main.storyboard */; };
 		880D8E19249EB52D00FD162C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880D8E18249EB52D00FD162C /* Assets.xcassets */; };
 		880D8E1C249EB52D00FD162C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D8E1A249EB52D00FD162C /* LaunchScreen.storyboard */; };
+		880D8E25249EBA0500FD162C /* HQQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E24249EBA0500FD162C /* HQQuestion.swift */; };
+		880D8E29249ED79F00FD162C /* HQAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E28249ED79F00FD162C /* HQAnswerView.swift */; };
+		880D8E2B249F2F4B00FD162C /* HQQuestionAnsweringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E2A249F2F4B00FD162C /* HQQuestionAnsweringViewController.swift */; };
+		880D8E2D249F31AF00FD162C /* HQRoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E2C249F31AF00FD162C /* HQRoundedCornerView.swift */; };
+		880D8E2F249F31F600FD162C /* HQLifeScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E2E249F31F600FD162C /* HQLifeScoreView.swift */; };
+		880D8E31249F32C300FD162C /* HQQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E30249F32C300FD162C /* HQQuestionView.swift */; };
+		880D8E33249F330A00FD162C /* HQGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E32249F330A00FD162C /* HQGame.swift */; };
+		880D8E36249FB1DC00FD162C /* HQUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8E35249FB1DC00FD162C /* HQUserData.swift */; };
+		8851B13F249FB54000E2532E /* HQHomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8851B13E249FB54000E2532E /* HQHomeScreenViewController.swift */; };
+		8851B141249FC45000E2532E /* HQLifetimeStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8851B140249FC45000E2532E /* HQLifetimeStatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		880D8E0C249EB52C00FD162C /* HackathonQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		880D8E0F249EB52D00FD162C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		880D8E11249EB52D00FD162C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		880D8E13249EB52D00FD162C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		880D8E16249EB52D00FD162C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880D8E18249EB52D00FD162C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880D8E1B249EB52D00FD162C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880D8E1D249EB52D00FD162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D8E24249EBA0500FD162C /* HQQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQQuestion.swift; sourceTree = "<group>"; };
+		880D8E28249ED79F00FD162C /* HQAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAnswerView.swift; sourceTree = "<group>"; };
+		880D8E2A249F2F4B00FD162C /* HQQuestionAnsweringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQQuestionAnsweringViewController.swift; sourceTree = "<group>"; };
+		880D8E2C249F31AF00FD162C /* HQRoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQRoundedCornerView.swift; sourceTree = "<group>"; };
+		880D8E2E249F31F600FD162C /* HQLifeScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQLifeScoreView.swift; sourceTree = "<group>"; };
+		880D8E30249F32C300FD162C /* HQQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQQuestionView.swift; sourceTree = "<group>"; };
+		880D8E32249F330A00FD162C /* HQGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQGame.swift; sourceTree = "<group>"; };
+		880D8E35249FB1DC00FD162C /* HQUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUserData.swift; sourceTree = "<group>"; };
+		880D8E37249FB23E00FD162C /* HackathonQuizApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HackathonQuizApp.entitlements; sourceTree = "<group>"; };
+		8851B13E249FB54000E2532E /* HQHomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQHomeScreenViewController.swift; sourceTree = "<group>"; };
+		8851B140249FC45000E2532E /* HQLifetimeStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQLifetimeStatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +75,49 @@
 		880D8E0E249EB52C00FD162C /* HackathonQuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				880D8E37249FB23E00FD162C /* HackathonQuizApp.entitlements */,
+				880D8E34249FB1C800FD162C /* storage */,
+				880D8E27249ED79200FD162C /* userInterface */,
+				880D8E23249EB9F600FD162C /* dataStructures */,
 				880D8E0F249EB52D00FD162C /* AppDelegate.swift */,
 				880D8E11249EB52D00FD162C /* SceneDelegate.swift */,
-				880D8E13249EB52D00FD162C /* ViewController.swift */,
 				880D8E15249EB52D00FD162C /* Main.storyboard */,
 				880D8E18249EB52D00FD162C /* Assets.xcassets */,
 				880D8E1A249EB52D00FD162C /* LaunchScreen.storyboard */,
 				880D8E1D249EB52D00FD162C /* Info.plist */,
 			);
 			path = HackathonQuizApp;
+			sourceTree = "<group>";
+		};
+		880D8E23249EB9F600FD162C /* dataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				880D8E24249EBA0500FD162C /* HQQuestion.swift */,
+				880D8E32249F330A00FD162C /* HQGame.swift */,
+			);
+			path = dataStructures;
+			sourceTree = "<group>";
+		};
+		880D8E27249ED79200FD162C /* userInterface */ = {
+			isa = PBXGroup;
+			children = (
+				880D8E28249ED79F00FD162C /* HQAnswerView.swift */,
+				880D8E2E249F31F600FD162C /* HQLifeScoreView.swift */,
+				880D8E2A249F2F4B00FD162C /* HQQuestionAnsweringViewController.swift */,
+				880D8E2C249F31AF00FD162C /* HQRoundedCornerView.swift */,
+				880D8E30249F32C300FD162C /* HQQuestionView.swift */,
+				8851B13E249FB54000E2532E /* HQHomeScreenViewController.swift */,
+				8851B140249FC45000E2532E /* HQLifetimeStatsViewController.swift */,
+			);
+			path = userInterface;
+			sourceTree = "<group>";
+		};
+		880D8E34249FB1C800FD162C /* storage */ = {
+			isa = PBXGroup;
+			children = (
+				880D8E35249FB1DC00FD162C /* HQUserData.swift */,
+			);
+			path = storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880D8E14249EB52D00FD162C /* ViewController.swift in Sources */,
+				8851B141249FC45000E2532E /* HQLifetimeStatsViewController.swift in Sources */,
+				880D8E2B249F2F4B00FD162C /* HQQuestionAnsweringViewController.swift in Sources */,
+				8851B13F249FB54000E2532E /* HQHomeScreenViewController.swift in Sources */,
+				880D8E29249ED79F00FD162C /* HQAnswerView.swift in Sources */,
+				880D8E2D249F31AF00FD162C /* HQRoundedCornerView.swift in Sources */,
+				880D8E33249F330A00FD162C /* HQGame.swift in Sources */,
+				880D8E31249F32C300FD162C /* HQQuestionView.swift in Sources */,
+				880D8E25249EBA0500FD162C /* HQQuestion.swift in Sources */,
 				880D8E10249EB52D00FD162C /* AppDelegate.swift in Sources */,
 				880D8E12249EB52D00FD162C /* SceneDelegate.swift in Sources */,
+				880D8E36249FB1DC00FD162C /* HQUserData.swift in Sources */,
+				880D8E2F249F31F600FD162C /* HQLifeScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HackathonQuizApp/HackathonQuizApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z44L282QM9;
 				INFOPLIST_FILE = HackathonQuizApp/Info.plist;
@@ -302,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HackathonQuizApp/HackathonQuizApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z44L282QM9;
 				INFOPLIST_FILE = HackathonQuizApp/Info.plist;
